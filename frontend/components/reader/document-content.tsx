@@ -169,6 +169,7 @@ export function DocumentContent({
                 key={node.id}
                 ref={commonRef as never}
                 id={`node-${node.id}`}
+                data-lenis-prevent
                 className={`overflow-x-auto ${activeClass}`}
               >
                 <table className="w-full border-collapse text-[0.85em]">

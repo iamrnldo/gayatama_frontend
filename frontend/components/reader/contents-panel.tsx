@@ -16,7 +16,7 @@ export function ContentsPanel({ activeId, onJump }: Props) {
       <div className="border-b border-dashed border-line px-4 py-3">
         <MicroLabel>Contents</MicroLabel>
       </div>
-      <nav className="flex-1 overflow-y-auto px-2 py-3">
+      <nav data-lenis-prevent className="flex-1 overflow-y-auto px-2 py-3">
         <ul className="flex flex-col">
           {headings.map((h) => {
             const isActive = activeId === h.id

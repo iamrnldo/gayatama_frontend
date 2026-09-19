@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next"
 import { Inter, Lexend, Atkinson_Hyperlegible } from "next/font/google"
 import { ReadingProvider } from "@/components/reading-provider"
+import { SmoothScroll } from "@/components/smooth-scroll"
+import "lenis/dist/lenis.css"
 import "./globals.css"
 
 const inter = Inter({
@@ -56,6 +58,7 @@ export default function RootLayout({
       className={`bg-background ${inter.variable} ${lexend.variable} ${atkinson.variable}`}
     >
       <body>
+        <SmoothScroll />
         <ReadingProvider>{children}</ReadingProvider>
       </body>
     </html>

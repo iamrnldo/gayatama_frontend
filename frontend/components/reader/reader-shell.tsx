@@ -134,6 +134,7 @@ export function ReaderShell() {
   return (
     <div className="flex flex-1 overflow-hidden">
       <div
+        data-lenis-prevent
         className="relative flex-1 overflow-y-auto"
         style={surfaceStyle(settings)}
         ref={canvasRef}

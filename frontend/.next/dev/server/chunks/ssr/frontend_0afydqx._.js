@@ -33,6 +33,7 @@ function ContentsPanel({ activeId, onJump }) {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+                "data-lenis-prevent": true,
                 className: "flex-1 overflow-y-auto px-2 py-3",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                     className: "flex flex-col",
@@ -159,6 +160,7 @@ function ControlsPanel() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                "data-lenis-prevent": true,
                 className: "flex-1 overflow-y-auto px-4 py-5",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Group, {
@@ -820,6 +822,7 @@ function DocumentContent({ nodes, settings, activeId, onActivate, registerRef })
                     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("figure", {
                         ref: commonRef,
                         id: `node-${node.id}`,
+                        "data-lenis-prevent": true,
                         className: `overflow-x-auto ${activeClass}`,
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
                             className: "w-full border-collapse text-[0.85em]",
@@ -831,17 +834,17 @@ function DocumentContent({ nodes, settings, activeId, onActivate, registerRef })
                                                 children: h
                                             }, h, false, {
                                                 fileName: "[project]/frontend/components/reader/document-content.tsx",
-                                                lineNumber: 178,
+                                                lineNumber: 179,
                                                 columnNumber: 25
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/components/reader/document-content.tsx",
-                                        lineNumber: 176,
+                                        lineNumber: 177,
                                         columnNumber: 21
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/frontend/components/reader/document-content.tsx",
-                                    lineNumber: 175,
+                                    lineNumber: 176,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -851,23 +854,23 @@ function DocumentContent({ nodes, settings, activeId, onActivate, registerRef })
                                                     children: cell
                                                 }, j, false, {
                                                     fileName: "[project]/frontend/components/reader/document-content.tsx",
-                                                    lineNumber: 191,
+                                                    lineNumber: 192,
                                                     columnNumber: 27
                                                 }, this))
                                         }, i, false, {
                                             fileName: "[project]/frontend/components/reader/document-content.tsx",
-                                            lineNumber: 189,
+                                            lineNumber: 190,
                                             columnNumber: 23
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/frontend/components/reader/document-content.tsx",
-                                    lineNumber: 187,
+                                    lineNumber: 188,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/frontend/components/reader/document-content.tsx",
-                            lineNumber: 174,
+                            lineNumber: 175,
                             columnNumber: 17
                         }, this)
                     }, node.id, false, {
@@ -883,7 +886,7 @@ function DocumentContent({ nodes, settings, activeId, onActivate, registerRef })
                         children: node.content
                     }, node.id, false, {
                         fileName: "[project]/frontend/components/reader/document-content.tsx",
-                        lineNumber: 207,
+                        lineNumber: 208,
                         columnNumber: 15
                     }, this);
                 case "footnote":
@@ -894,7 +897,7 @@ function DocumentContent({ nodes, settings, activeId, onActivate, registerRef })
                         children: node.content
                     }, node.id, false, {
                         fileName: "[project]/frontend/components/reader/document-content.tsx",
-                        lineNumber: 219,
+                        lineNumber: 220,
                         columnNumber: 15
                     }, this);
                 default:
@@ -1031,6 +1034,7 @@ function ReaderShell() {
         className: "flex flex-1 overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                "data-lenis-prevent": true,
                 className: "relative flex-1 overflow-y-auto",
                 style: (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$lib$2f$reading$2d$styles$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["surfaceStyle"])(settings),
                 ref: canvasRef,
@@ -1049,7 +1053,7 @@ function ReaderShell() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                        lineNumber: 144,
+                        lineNumber: 145,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
@@ -1067,7 +1071,7 @@ function ReaderShell() {
                                 registerRef: registerRef
                             }, void 0, false, {
                                 fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                                lineNumber: 162,
+                                lineNumber: 163,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1081,7 +1085,7 @@ function ReaderShell() {
                                         children: "End of chapter"
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                                        lineNumber: 174,
+                                        lineNumber: 175,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$components$2f$ui$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["LinkButton"], {
@@ -1090,19 +1094,19 @@ function ReaderShell() {
                                         children: "View accessibility score"
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                                        lineNumber: 177,
+                                        lineNumber: 178,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                                lineNumber: 170,
+                                lineNumber: 171,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                        lineNumber: 158,
+                        lineNumber: 159,
                         columnNumber: 9
                     }, this)
                 ]
@@ -1115,19 +1119,19 @@ function ReaderShell() {
                 className: "hidden w-[320px] shrink-0 border-l border-dashed border-line bg-surface lg:block",
                 children: panel === "controls" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$components$2f$reader$2f$controls$2d$panel$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ControlsPanel"], {}, void 0, false, {
                     fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                    lineNumber: 187,
+                    lineNumber: 188,
                     columnNumber: 13
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$components$2f$reader$2f$contents$2d$panel$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ContentsPanel"], {
                     activeId: activeId,
                     onJump: jumpTo
                 }, void 0, false, {
                     fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                    lineNumber: 189,
+                    lineNumber: 190,
                     columnNumber: 13
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                lineNumber: 185,
+                lineNumber: 186,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1141,12 +1145,12 @@ function ReaderShell() {
                             className: "h-4 w-4"
                         }, void 0, false, {
                             fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                            lineNumber: 200,
+                            lineNumber: 201,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                        lineNumber: 195,
+                        lineNumber: 196,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(RailButton, {
@@ -1157,19 +1161,19 @@ function ReaderShell() {
                             className: "h-4 w-4"
                         }, void 0, false, {
                             fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                            lineNumber: 207,
+                            lineNumber: 208,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                        lineNumber: 202,
+                        lineNumber: 203,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "my-1 h-px w-6 bg-line"
                     }, void 0, false, {
                         fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                        lineNumber: 210,
+                        lineNumber: 211,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(RailButton, {
@@ -1180,18 +1184,18 @@ function ReaderShell() {
                             className: "h-4 w-4"
                         }, void 0, false, {
                             fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                            lineNumber: 218,
+                            lineNumber: 219,
                             columnNumber: 13
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$play$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Play$3e$__["Play"], {
                             className: "h-4 w-4"
                         }, void 0, false, {
                             fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                            lineNumber: 220,
+                            lineNumber: 221,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                        lineNumber: 212,
+                        lineNumber: 213,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(RailButton, {
@@ -1202,12 +1206,12 @@ function ReaderShell() {
                             className: "h-4 w-4"
                         }, void 0, false, {
                             fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                            lineNumber: 224,
+                            lineNumber: 225,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                        lineNumber: 223,
+                        lineNumber: 224,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(RailButton, {
@@ -1220,12 +1224,12 @@ function ReaderShell() {
                             className: "h-4 w-4"
                         }, void 0, false, {
                             fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                            lineNumber: 233,
+                            lineNumber: 234,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                        lineNumber: 226,
+                        lineNumber: 227,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1237,29 +1241,29 @@ function ReaderShell() {
                                 className: "h-4 w-4"
                             }, void 0, false, {
                                 fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                                lineNumber: 242,
+                                lineNumber: 243,
                                 columnNumber: 15
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$panel$2d$right$2d$open$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__PanelRightOpen$3e$__["PanelRightOpen"], {
                                 className: "h-4 w-4"
                             }, void 0, false, {
                                 fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                                lineNumber: 244,
+                                lineNumber: 245,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                            lineNumber: 237,
+                            lineNumber: 238,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                        lineNumber: 236,
+                        lineNumber: 237,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-                lineNumber: 194,
+                lineNumber: 195,
                 columnNumber: 7
             }, this)
         ]
@@ -1283,7 +1287,7 @@ function RailButton({ children, label, active, disabled, onClick }) {
         children: children
     }, void 0, false, {
         fileName: "[project]/frontend/components/reader/reader-shell.tsx",
-        lineNumber: 267,
+        lineNumber: 268,
         columnNumber: 5
     }, this);
 }

@@ -25,7 +25,7 @@ export function ControlsPanel() {
         </button>
       </div>
 
-      <div className="flex-1 overflow-y-auto px-4 py-5">
+      <div data-lenis-prevent className="flex-1 overflow-y-auto px-4 py-5">
         <Group label="Font">
           <div className="grid grid-cols-2 gap-1.5">
             {FONTS.map((f) => (
